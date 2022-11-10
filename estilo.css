@@ -1,0 +1,127 @@
+/*:root {
+  --ourColor: rgb(83, 175, 19);
+} 
+$ourColor: rgb(83, 175, 19); */
+
+body {
+  background: url(https://64.media.tumblr.com/3f11d7bf5ab7ee025289e132008d9aa2/711025d41d4f6566-29/s640x960/e622e38c4da6e3d622df227ff3c6eff4e41be11c.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+h1 {
+  color: rgb(189, 189, 189);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  background-color:rgb(32, 32, 39);
+  padding: 10px;
+  border-color: #3d3d3d;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+#mensaje {
+font-size: 20px;
+color:  rgb(189, 189, 189);
+text-align: center;
+}
+
+#tablero {
+  width: 900px;
+  height: 850px;
+  margin: 0 auto;
+  background: radial-gradient(rgb(63, 65, 71),rgb(45, 47, 53), rgb(32, 32, 39));
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(5, 5, 5);
+
+  
+}
+
+table {
+  width: 720px;
+  height: 720px;
+  border: 1px solid rgb(182, 182, 182);
+  margin: 0 auto;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  left: 0px;
+}
+
+.casillaABC, .casilla123 {
+  
+  font-size: 40px;
+  text-align: center;
+  line-height: 10px;
+  color: rgb(170, 170, 170);
+  font-weight: bold;
+
+  
+}
+
+.casillaABC {
+  width: 42px;
+  float: left;  
+  padding: 16px;
+}
+.casilla123 {
+  width: 40px;
+  height: 42px;
+  padding: 14px; 
+}
+
+input {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: rgb(170, 170, 170);
+  border: 1px solid #000;
+  background-color: rgb(45, 47, 53);
+  border-radius: 10px;
+}
+
+.boton {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: rgb(170, 170, 170);
+  border: 1px solid #000;
+  background-color: rgb(45, 47, 53);
+  border-radius: 10px;
+}
+
+.acierto {
+  background: url("public/img/acierto.png") no-repeat center center;
+}
+
+.fallo {
+  background: url("public/img/fallo.png") no-repeat center center;
+}
+
+form {
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: radial-gradient(rgb(63, 65, 71),rgb(45, 47, 53), rgb(32, 32, 39));
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(5, 5, 5);
+  padding: 20px;
+  color: rgb(170, 170, 170);  
+}
+
+audio {
+  border:10px solid rgb(54, 54, 54);
+  border-radius: 50px;
+  background-color: rgb(54, 54, 54);
+
+}
